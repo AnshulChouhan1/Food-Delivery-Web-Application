@@ -1,0 +1,283 @@
+{% extends "base.html" %}
+
+{% block title %}About Us - FoodExpress{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hero-content">
+                    <h1 class="text-shadow">About FoodExpress</h1>
+                    <p class="lead">Connecting food lovers with their favorite restaurants since 2020. We're passionate about delivering exceptional dining experiences right to your doorstep.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="{{ url_for('static', filename='images/hero-bg.jpg') }}" alt="About FoodExpress" class="img-fluid rounded shadow-lg" style="max-height: 400px; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Story Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="display-5 fw-bold mb-4">Our Story</h2>
+                <p class="lead text-muted mb-4">
+                    FoodExpress was born from a simple idea: everyone deserves access to delicious, high-quality food, 
+                    delivered fresh and fast. Founded in 2020 by a team of food enthusiasts and technology experts, 
+                    we set out to revolutionize the food delivery experience.
+                </p>
+                <p class="text-muted">
+                    What started as a small local service has grown into a trusted platform connecting thousands of 
+                    customers with their favorite restaurants. We believe that great food brings people together, 
+                    and we're proud to be part of that connection.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission & Values Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">Our Mission & Values</h2>
+            <p class="lead text-muted">The principles that guide everything we do</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="text-primary mb-3">
+                            <i class="fas fa-heart fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Quality First</h5>
+                        <p class="card-text">We partner only with restaurants that share our commitment to quality ingredients and exceptional preparation.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="text-primary mb-3">
+                            <i class="fas fa-bolt fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Speed & Reliability</h5>
+                        <p class="card-text">Fast delivery times and reliable service are at the core of our promise to customers.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="text-primary mb-3">
+                            <i class="fas fa-users fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Community Focus</h5>
+                        <p class="card-text">We support local restaurants and contribute to the communities we serve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">Meet Our Team</h2>
+            <p class="lead text-muted">The passionate people behind FoodExpress</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="mb-3">
+                            <div class="bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <i class="fas fa-user fa-2x text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Sarah Johnson</h5>
+                        <p class="text-primary">CEO & Founder</p>
+                        <p class="card-text small text-muted">Former restaurant owner with 15 years of experience in the food industry.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="mb-3">
+                            <div class="bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <i class="fas fa-user fa-2x text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Michael Chen</h5>
+                        <p class="text-primary">CTO</p>
+                        <p class="card-text small text-muted">Technology expert specializing in logistics and delivery optimization.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="mb-3">
+                            <div class="bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <i class="fas fa-user fa-2x text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title">Emily Rodriguez</h5>
+                        <p class="text-primary">Head of Operations</p>
+                        <p class="card-text small text-muted">Operations specialist ensuring smooth delivery processes and customer satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="mb-3">
+                            <div class="bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <i class="fas fa-user fa-2x text-white"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title">David Kim</h5>
+                        <p class="text-primary">Head of Partnerships</p>
+                        <p class="card-text small text-muted">Building relationships with restaurants and expanding our network of partners.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Information Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">Get in Touch</h2>
+            <p class="lead text-muted">We'd love to hear from you</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="text-primary mb-3">
+                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                        </div>
+                        <h5 class="card-title">Visit Us</h5>
+                        <p class="card-text">
+                            123 Food Street<br>
+                            Delivery City, DC 12345<br>
+                            United States
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="text-primary mb-3">
+                            <i class="fas fa-phone fa-2x"></i>
+                        </div>
+                        <h5 class="card-title">Call Us</h5>
+                        <p class="card-text">
+                            Customer Service: <a href="tel:+1234567890" class="text-decoration-none">+1 (234) 567-8900</a><br>
+                            Business Inquiries: <a href="tel:+1234567891" class="text-decoration-none">+1 (234) 567-8901</a><br>
+                            Available 24/7
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body p-4">
+                        <div class="text-primary mb-3">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </div>
+                        <h5 class="card-title">Email Us</h5>
+                        <p class="card-text">
+                            General: <a href="mailto:info@foodexpress.com" class="text-decoration-none">info@foodexpress.com</a><br>
+                            Support: <a href="mailto:support@foodexpress.com" class="text-decoration-none">support@foodexpress.com</a><br>
+                            Partnerships: <a href="mailto:partners@foodexpress.com" class="text-decoration-none">partners@foodexpress.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Statistics Section -->
+<section class="py-5 bg-gradient ">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">Our Impact</h2>
+            <p class="lead">Numbers that tell our story</p>
+        </div>
+        
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="stat-item">
+                    <h3 class="display-4 fw-bold">50,000+</h3>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="stat-item">
+                    <h3 class="display-4 fw-bold">200+</h3>
+                    <p>Restaurant Partners</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="stat-item">
+                    <h3 class="display-4 fw-bold">1M+</h3>
+                    <p>Orders Delivered</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="stat-item">
+                    <h3 class="display-4 fw-bold">25min</h3>
+                    <p>Average Delivery Time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="py-5">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="display-5 fw-bold mb-4">Ready to Join Our Community?</h2>
+                <p class="lead mb-4">Whether you're a customer looking for great food or a restaurant wanting to expand your reach, we'd love to work with you.</p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    <a href="{{ url_for('products') }}" class="btn btn-primary btn-lg">
+                        <i class="fas fa-utensils me-2"></i>Order Now
+                    </a>
+                    <a href="mailto:partners@foodexpress.com" class="btn btn-outline-primary btn-lg">
+                        <i class="fas fa-handshake me-2"></i>Partner With Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
