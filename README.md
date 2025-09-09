@@ -34,18 +34,21 @@ This project lets users browse food items, add them to a cart, place orders, and
 
 ### 1️⃣ Clone the repo  
 ---
-git clone https://github.com/your-username/food-delivery-app.git
-cd food-delivery-app
+-git clone [https://github.com/your-username/food-delivery-app.git](https://github.com/AnshulChouhan1/Food-Delivery-Web-Application)
+-cd food-delivery-app
 ---
-### Create virtual environment & activate
-python -m venv venv
-venv\Scripts\activate   # Windows
 
-source venv/bin/activate  # Linux/Mac
+### Create virtual environment & activate
+-python -m venv venv
+-venv\Scripts\activate   # Windows
+-source venv/bin/activate  # Linux/Mac
 ---
+
 ### Install dependencies
-pip install -r requirements.txt
+-pip install -r requirements.txt
 ---
+
 ### Run the app
-python src/main.py
+-python src/main.py
 ---
+
